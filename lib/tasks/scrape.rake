@@ -133,4 +133,9 @@ namespace :scrape do
 			puts e
 		end
 	end
+
+	task :send => :environment do 
+		Gather.test_mail()
+	end
+
 end
