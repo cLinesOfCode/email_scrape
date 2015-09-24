@@ -72,6 +72,22 @@ class Gather < ApplicationMailer
 
 		emails.each_with_index do |e, i|
 			if i == 1000
+				mail = SendGrid::Mail.new do |m|
+				m.to = "noshaf@gmail.com"
+				m.subject = "Experience on campus"
+				m.from = 'Chris Lin <chris@associatedstudents.org>'
+				m.from_name = 'Chris Lin'
+				m.text = 'We at Associated Students for Change (ASoC) want to share with you a project we are supporting in an effort to bring people back together. Below is a snippet from our post.. 
+
+	"In an age where pre-dominant communication is digital (friends/family/dating) and because of technologies like fb, twitter, instagram, and snapchat life has become more of a spectator sport than a participatory environment with deep connecting human interaction.
+	With this lack of physical connection comes a lack of satisfaction and is considered to be one of the leading causes of depression (http://www.theguardian.com/commentisfree/2014/aug/16/depression-disease-loneliness-friends).  We often to seek to cure our loss with things (consumerism) and that is merely a fleeting cure." Continue reading (http://associatedstudents.org/2015/09/21/is-being-more-digitally-connected-making-our-lives-better/)
+
+	Should you choose not to read any further the project we are supporting is Gather (https://bit.ly/1KpOTFi) - a minimal mobile app with the sole intention of using technology to actually spend time with your friends. Download it and invite your friends to hang out. Stop being a voyeur and have an experience! 
+
+	With Love, 
+
+	ASoC'
+				m.html = html
 				return
 			end
 
