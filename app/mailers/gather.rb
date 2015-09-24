@@ -4,46 +4,46 @@ class Gather < ApplicationMailer
 		# emails = Email.all
 	# ASoC image
 
-	# 	html = 'We at Associated Students for Change (ASoC) want to share with you a project we are supporting in an effort to bring people back together. Below is a snippet from our post.. 
-	# <br><br>
-	# "In an age where pre-dominant communication is digital (friends/family/dating) and because of technologies like fb, twitter, instagram, and snapchat life has become more of a spectator sport than a participatory environment with deep connecting human interaction.
-	# With this lack of physical connection comes a lack of satisfaction and is considered to be one of the <a href="https://www.theguardian.com/commentisfree/2014/aug/16/depression-disease-loneliness-friends">leading causes of depression</a>.  We often to seek to cure our loss with things (consumerism) and that is merely a fleeting cure." <a href="http://associatedstudents.org/2015/09/21/is-being-more-digitally-connected-making-our-lives-better/">Continue reading</a> 
-	# <br><br>
-	# Should you choose not to read any further the project we are supporting is <a href="https://bit.ly/1KpOTFi">Gather</a> - a minimal mobile app with the sole intention of using technology to actually spend time with your friends. Download it and invite your friends to hang out. Stop being a voyeur and have an experience! 
-	# <br><br>
-	# With Love, 
-	# <br><br>
-	# ASoC
-	# <br><br>
-	# <img src="http://www.imageurlhost.com/images/23j7eszvlkvmjcawya88.png" width="259" height="98"></img>
-	# <br><br>
-	# ==============================================<br>
-	# You are receiving this e-mail because you are a student at the University of California.
-	# <br>
-	# <br>
-	# Unsubscibe from this list by replying to this email with the subject line "Unsubscribe"'
-
-	# Gather image
-
-	html = 'We at Associated Students for Change (ASoC) want to share with you a project we are supporting in an effort to bring people back together. Below is a snippet from our post.. 
+		html = 'We at Associated Students for Change (ASoC) want to share with you a project we are supporting in an effort to bring people back together. Below is a snippet from our post.. 
 	<br><br>
 	"In an age where pre-dominant communication is digital (friends/family/dating) and because of technologies like fb, twitter, instagram, and snapchat life has become more of a spectator sport than a participatory environment with deep connecting human interaction.
 	With this lack of physical connection comes a lack of satisfaction and is considered to be one of the <a href="https://www.theguardian.com/commentisfree/2014/aug/16/depression-disease-loneliness-friends">leading causes of depression</a>.  We often to seek to cure our loss with things (consumerism) and that is merely a fleeting cure." <a href="http://associatedstudents.org/2015/09/21/is-being-more-digitally-connected-making-our-lives-better/">Continue reading</a> 
 	<br><br>
 	Should you choose not to read any further the project we are supporting is <a href="https://bit.ly/1KpOTFi">Gather</a> - a minimal mobile app with the sole intention of using technology to actually spend time with your friends. Download it and invite your friends to hang out. Stop being a voyeur and have an experience! 
 	<br><br>
-	<img src="https://mailscrape.herokuapp.com/icon-high-res-real-small.png" style="height:25px;width:25px"></img>
-	<br><br>
 	With Love, 
 	<br><br>
 	ASoC
-	<br>
+	<br><br>
+	<img src="http://www.imageurlhost.com/images/23j7eszvlkvmjcawya88.png" width="259" height="98"></img>
 	<br><br>
 	==============================================<br>
 	You are receiving this e-mail because you are a student at the University of California.
 	<br>
 	<br>
 	Unsubscibe from this list by replying to this email with the subject line "Unsubscribe"'
+
+	# Gather image
+
+	# html = 'We at Associated Students for Change (ASoC) want to share with you a project we are supporting in an effort to bring people back together. Below is a snippet from our post.. 
+	# <br><br>
+	# "In an age where pre-dominant communication is digital (friends/family/dating) and because of technologies like fb, twitter, instagram, and snapchat life has become more of a spectator sport than a participatory environment with deep connecting human interaction.
+	# With this lack of physical connection comes a lack of satisfaction and is considered to be one of the <a href="https://www.theguardian.com/commentisfree/2014/aug/16/depression-disease-loneliness-friends">leading causes of depression</a>.  We often to seek to cure our loss with things (consumerism) and that is merely a fleeting cure." <a href="http://associatedstudents.org/2015/09/21/is-being-more-digitally-connected-making-our-lives-better/">Continue reading</a> 
+	# <br><br>
+	# Should you choose not to read any further the project we are supporting is <a href="https://bit.ly/1KpOTFi">Gather</a> - a minimal mobile app with the sole intention of using technology to actually spend time with your friends. Download it and invite your friends to hang out. Stop being a voyeur and have an experience! 
+	# <br><br>
+	# <img src="https://mailscrape.herokuapp.com/icon-high-res-real-small.png" style="height:25px;width:25px"></img>
+	# <br><br>
+	# With Love, 
+	# <br><br>
+	# ASoC
+	# <br>
+	# <br><br>
+	# ==============================================<br>
+	# You are receiving this e-mail because you are a student at the University of California.
+	# <br>
+	# <br>
+	# Unsubscibe from this list by replying to this email with the subject line "Unsubscribe"'
 
 	# default
 
@@ -71,7 +71,7 @@ class Gather < ApplicationMailer
 		end
 
 		emails.each_with_index do |e, i|
-			if i == 300
+			if i == 1000
 				return
 			end
 
