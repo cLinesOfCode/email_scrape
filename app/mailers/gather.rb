@@ -25,9 +25,11 @@ class Gather < ApplicationMailer
 
 	# Gather image
 
-	html = 'The game of all games that will bring intrigue, suspense, puzzle solving, and adventure will commence next weekend.
+	html = 'The game of all games that will bring intrigue, suspense, puzzle solving, and adventure will commence next weekend, spilling puzzles onto your path to intrigue your pondering ponds, which will ripple with riddles that reflect your evening’s outcome.
 <br><br>
-Your destiny awaits. Will you heed the call? - To get the next clue and continue playing the game follow <a href="goo.gl/XDmDzn">this link</a>'
+Won’t you come out to this Destination Exploration? Are you game?
+<br><br>
+To heed the call of this beckoning mystery, and continue the game, join here to receive your first clue <a href="goo.gl/XDmDzn">here</a>.'
 
 	# default
 
